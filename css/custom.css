@@ -1,0 +1,149 @@
+
+/** Body **/
+body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.navbar-nav .active{
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.bg-blue{
+  background-color: #3eb6d8;
+}
+
+/** Carousel **/
+.fa-angle-right,
+.fa-angle-left {
+  font-size: 3rem;
+  color: #0e76bc;
+}
+
+/** About **/
+
+.circle-icon:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 700px;
+}
+
+/* Add Animation */
+.modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/** Services **/
+.logo-small{
+  color: #008080;
+  font-size: 2.5rem;
+}
+
+/** Client **/
+.client-hover{
+  transition: transform 0.8s ease;
+}
+
+.client-hover:hover{
+  transform: scale(1.2);
+}
+
+/** Contact Section**/
+#contact ul {
+  padding: 0;
+}
+
+#contact ul li{
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+  background-size: 35px 35px;
+  opacity: 1;
+  transition: all .25s;
+}
+
+a.social:hover {
+  transform: scale(2) rotate(5deg);
+}
+
+a.facebook {
+background-image: url(../img/facebook.svg);
+}
+
+a.twitter {
+	background-image: url(../img/twitter.svg);
+}
+
+a.instagram {
+	background-image: url(../img/instagram.svg);
+}
+
+.map {
+  width: 100%;
+  max-width: 1366px;
+  height: 400px;
+}
+
+
+footer .fa-chevron-up {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: ##0e76bc;
+}
